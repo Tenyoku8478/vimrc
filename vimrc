@@ -70,6 +70,9 @@ set autoindent
 set hlsearch
 set incsearch
 
+" Enable mouse
+set mouse=a
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Language-Specific Settings
