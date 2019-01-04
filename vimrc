@@ -40,7 +40,6 @@ colorscheme desert
 syntax on
 set number
 set wrap linebreak
-set foldmethod=syntax
 set colorcolumn=81
 
 " Always display status line
