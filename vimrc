@@ -13,6 +13,12 @@ Plugin 'VundleVim/Vundle.vim'
 " status line
 Plugin 'itchyny/lightline.vim'
 
+" expanding abbreviations similar to emmet
+Plugin 'mattn/emmet-vim'
+
+" linter
+Plugin 'w0rp/ale'
+
 " === Plugins must be added above here ===
 call vundle#end()
 filetype plugin indent on
@@ -70,8 +76,10 @@ set autoindent
 set hlsearch
 set incsearch
 
-" Enable mouse
-set mouse=a
+" Disable mouse
+set mouse=
+
+set backspace=indent,eol,start
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
