@@ -19,6 +19,9 @@ Plugin 'mattn/emmet-vim'
 " linter
 Plugin 'w0rp/ale'
 
+" % navigator
+Plugin 'andymass/vim-matchup'
+
 " === Plugins must be added above here ===
 call vundle#end()
 filetype plugin indent on
